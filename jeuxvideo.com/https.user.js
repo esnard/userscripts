@@ -10,7 +10,5 @@
 // ==/UserScript==
 
 (function () {
-    var url = new URL(window.location);
-    url.protocol = "https:";
-    window.location = url;
+    window.location.protocol = "https";
 })();

@@ -6,6 +6,7 @@
 // @author      Benoit Esnard
 // @match       http://www.jeuxvideo.com/*
 // @grant       none
+// @run-at      document-start
 // ==/UserScript==
 
 (function () {

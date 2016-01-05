@@ -4,7 +4,7 @@
 // @version     1.0
 // @description Allows capitalized letters in profiles URLs.
 // @author      Benoit Esnard
-// @match       http://www.jeuxvideo.com/profil/*
+// @match       *://www.jeuxvideo.com/profil/*
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==

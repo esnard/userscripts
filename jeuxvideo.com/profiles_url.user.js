@@ -10,10 +10,10 @@
 // ==/UserScript==
 
 (function () {
-    var current_url = window.decodeURI(window.location.pathname);
-    var expected_url = current_url.toLowerCase();
+    var current_pathname = window.decodeURI(window.location.pathname);
+    var expected_pathname = current_pathname.toLowerCase();
 
-    if (current_url !== expected_url) {
-        window.location.pathname = expected_url;
+    if (current_pathname !== expected_pathname) {
+        window.location.pathname = expected_pathname;
     }
 })();

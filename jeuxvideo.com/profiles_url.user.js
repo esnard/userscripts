@@ -13,6 +13,10 @@
     var current_pathname = window.decodeURI(window.location.pathname);
     var expected_pathname = current_pathname.toLowerCase();
 
+    if (expected_pathname.endsWith(".html")) {
+        expected_pathname = expected_pathname.slice(0, -1 * (".html".length));
+    }
+
     if (current_pathname !== expected_pathname) {
         window.location.pathname = expected_pathname;
     }
